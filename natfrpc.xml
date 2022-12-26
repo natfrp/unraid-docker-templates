@@ -15,7 +15,7 @@ https://doc.natfrp.com/#/app/unraid</Overview>
   <WebUI>https://www.natfrp.com/user/</WebUI>
   <TemplateURL/>
   <Icon/>
-  <ExtraParams/>
+  <ExtraParams>--pull=always</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled></DateInstalled>

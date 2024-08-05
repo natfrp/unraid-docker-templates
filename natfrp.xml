@@ -1,0 +1,26 @@
+<Container version="2">
+<Name>natfrp</Name>
+<Repository>natfrp.com/launcher</Repository>
+<Registry/>
+<Network>host</Network>
+<MyIP/>
+<Shell>sh</Shell>
+<Privileged>false</Privileged>
+<Support>https://doc.natfrp.com/</Support>
+<Project>https://www.natfrp.com/</Project>
+<Overview>SakuraFrp 启动器镜像 https://doc.natfrp.com/app/unraid </Overview>
+<Category>Tools: Network:Other</Category>
+<WebUI/>
+<TemplateURL/>
+<Icon/>
+<ExtraParams/>
+<PostArgs/>
+<CPUset/>
+<DateInstalled/>
+<DonateText/>
+<DonateLink/>
+<Requires/>
+<Config Name="访问密钥" Target="NATFRP_TOKEN" Default="" Mode="" Description="访问密钥，在管理面板点击 “复制访问密钥” 进行复制" Type="Variable" Display="always" Required="false" Mask="true"/>
+<Config Name="远程管理密码" Target="NATFRP_REMOTE" Default="" Mode="" Description="输入一个自定义密码，至少 8 字符" Type="Variable" Display="always" Required="false" Mask="true"/>
+<Config Name="配置文件目录" Target="/run" Default="" Mode="rw" Description="存储启动器配置文件、SSL 证书等，请挂载至合适的位置" Type="Path" Display="always" Required="true" Mask="false"/>
+</Container>

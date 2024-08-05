@@ -10,9 +10,9 @@
 <Project>https://www.natfrp.com/</Project>
 <Overview>SakuraFrp 启动器镜像 https://doc.natfrp.com/app/unraid </Overview>
 <Category>Tools: Network:Other</Category>
-<WebUI/>
+<WebUI>https://[IP]:7102</WebUI>
 <TemplateURL/>
-<Icon/>
+<Icon>https://www.natfrp.com/favicon.ico</Icon>
 <ExtraParams/>
 <PostArgs/>
 <CPUset/>
